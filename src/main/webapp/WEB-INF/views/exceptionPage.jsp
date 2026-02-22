@@ -6,7 +6,7 @@
 <h1><center>Charity Trust</center></h1>
 <center>
 		<h3>
-			${errorMessage}
+			
 				
 		</h3>
 	<div>

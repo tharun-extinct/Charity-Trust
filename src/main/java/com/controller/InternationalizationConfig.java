@@ -17,9 +17,7 @@ public class InternationalizationConfig implements WebMvcConfigurer {
 	public LocaleResolver localeResolver() {
 
 		// Fill the code
-		org.springframework.web.servlet.i18n.SessionLocaleResolver slr = new org.springframework.web.servlet.i18n.SessionLocaleResolver();
-		slr.setDefaultLocale(java.util.Locale.ENGLISH);
-		return slr;
+		return null;
 	}
 
 	// Create LocaleChangeInterceptor object and set the parameter name as
@@ -27,9 +25,7 @@ public class InternationalizationConfig implements WebMvcConfigurer {
 	@Bean
 	public LocaleChangeInterceptor localeChangeInterceptor() {
 		// Fill the code
-		LocaleChangeInterceptor lci = new LocaleChangeInterceptor();
-		lci.setParamName("language");
-		return lci;
+		return null;
 
 	}
 
@@ -37,6 +33,5 @@ public class InternationalizationConfig implements WebMvcConfigurer {
 	@Override
 	public void addInterceptors(InterceptorRegistry registry) {
 		// Fill the code
-		registry.addInterceptor(localeChangeInterceptor());
 	}
 }

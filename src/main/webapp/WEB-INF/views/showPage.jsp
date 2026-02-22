@@ -62,7 +62,7 @@ color:red;
 <a href="/showPage?language=en">English</a>|<a href="/showPage?language=de">German</a>|<a href="/showPage?language=fr">French</a></align>
 <!--  Design the page as per the requirements-->
 <h1><center>Charity Trust</center></h1>
-<form:form action="addFund" method="post" modelAttribute="donate">
+<form:form >
 <div class="row">
   <div class="column1">
 <table>
@@ -74,29 +74,11 @@ color:red;
   <div class="column">
 <table style="margin: 0px auto; margin-left: auto; margin-right:auto">
 		               
-         <tr>
-         	<td><spring:message code="label.sponsorName"/>:</td>
-         	<td><form:input path="sponsorName" /></td>
-         </tr>
-         <tr>
-         	<td><spring:message code="label.phoneNumber"/>:</td>
-         	<td><form:input path="phoneNumber" /></td>
-         </tr>
-         <tr>
-         	<td><spring:message code="label.donationFor"/>:</td>
-         	<td><form:input path="donationFor" /></td>
-         </tr>
-         <tr>
-         	<td><spring:message code="label.date"/>:</td>
-         	<td><form:input path="date" type="date" /></td>
-         </tr>
-         <tr>
-         	<td><spring:message code="label.amount"/>:</td>
-         	<td><form:input path="amount" /></td>
-         </tr>
-         <tr>
-         	<td colspan="2" align="center"><input type="submit" value="Add Fund" /></td>
-         </tr>
+         
+         
+          <!--  Fill the code -->
+         
+         
          
          
 	</table> 

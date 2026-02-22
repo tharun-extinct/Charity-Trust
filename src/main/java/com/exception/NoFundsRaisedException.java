@@ -5,7 +5,6 @@ public class NoFundsRaisedException extends Exception {
 
 	public NoFundsRaisedException(String msg) {
 		// fill the code
-		super(msg);
 	}
 
 }

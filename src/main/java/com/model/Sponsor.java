@@ -1,10 +1,8 @@
 package com.model;
 
-import org.springframework.stereotype.Component;
-
 //POJO class
 // Use appropriate annotation
-@Component
+
 public class Sponsor {
 	
 	// Fill the code
